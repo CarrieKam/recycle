@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "recycle-101"
+  },
+  "targets": {
+    "recycle-101": {
+      "hosting": {
+        "recycle": [
+          "recycle-101"
+        ]
+      }
+    }
+  }
+}

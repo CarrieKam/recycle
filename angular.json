@@ -96,6 +96,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "recycle:build:production",
+            "firebaseProject": "recycle-101",
+            "firebaseHostingSite": "recycle-101"
+          }
         }
       }
     }
